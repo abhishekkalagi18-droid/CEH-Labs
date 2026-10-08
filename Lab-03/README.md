@@ -554,7 +554,31 @@ Reddit
 ```html
 <form hidden method="GET" action="/user/cyberlab_test_2026/">
 ```
+---
+# 📌 Evidence Summary
 
+| Evidence | Result |
+|---|---|
+| Test username | `cyberlab_test_2026` |
+| Sherlock version | `0.16.0` |
+| Potential profiles detected | `44` |
+| Output file | `sherlock_result.txt` |
+| Verified platform | Reddit |
+| Initial HTTP response | `301 Moved Permanently` |
+| Final HTTP response | `200 OK` |
+| Username found in HTML | `cyberlab_test_2026` |
+| Identity/ownership confirmed | ❌ No |
+
+### Key Evidence
+
+- Sherlock reported **44 potential username matches**.
+- Results were successfully saved to `sherlock_result.txt`.
+- The Reddit URL returned a **301 redirect** to its canonical URL.
+- The canonical Reddit URL returned **HTTP 200 OK**.
+- The returned HTML contained the tested username.
+- These results verify the availability of the tested Reddit URL, but **do not prove real-world identity or ownership**.
+
+> **Evidence conclusion:** The automated OSINT finding was successfully verified at the URL/content level, while identity attribution remains unconfirmed.
 ---
 
 # 🧠 Key Learning Points
